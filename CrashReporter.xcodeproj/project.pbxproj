@@ -1263,7 +1263,14 @@
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CrashReporter" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* CrashReporter */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -1865,7 +1872,7 @@
 				EXPORTED_SYMBOLS_FILE = Resources/CrashReporter.exp;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dependencies/protobuf-2.0.3/lib\"",
@@ -1874,7 +1881,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CrashReporter${EFFECTIVE_PLATFORM_NAME}";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -1888,7 +1895,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXPORTED_SYMBOLS_FILE = Resources/CrashReporter.exp;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dependencies/protobuf-2.0.3/lib\"",
@@ -1897,7 +1904,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CrashReporter${EFFECTIVE_PLATFORM_NAME}";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				ZERO_LINK = NO;
 			};
@@ -1920,7 +1927,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CrashReporter${EFFECTIVE_PLATFORM_NAME}";
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -1941,7 +1948,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CrashReporter${EFFECTIVE_PLATFORM_NAME}";
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = NO;
 				ZERO_LINK = NO;
 			};
@@ -2074,7 +2081,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "Tests-iPhoneSimulator";
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -2105,7 +2112,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "Tests-iPhoneSimulator";
-				SDKROOT = iphonesimulator4.0;
+				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -2128,7 +2135,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Resources/Tests-iPhone-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -2138,7 +2145,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "Tests-iPhoneOS";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -2160,7 +2167,7 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Resources/Tests-iPhone-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -2170,7 +2177,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "Tests-iPhoneOS";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
@@ -2402,7 +2409,7 @@
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1.0.1;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Dependencies/protobuf-2.0.3/include\"";
@@ -2419,7 +2426,7 @@
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1.0.1;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/$(DERIVED_FILES_DIR)\"",
